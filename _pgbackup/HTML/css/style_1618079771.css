@@ -1,7 +1,6 @@
 html {
-    -webkit-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased
 }
-
 .rev_slider_wrapper {
     font-family: Hind, sans-serif;
     font-size: 16px;
@@ -9,19 +8,16 @@ html {
     line-height: 2;
     color: #141414;
     overflow-x: hidden;
-    padding-right: 0 !important;
+    padding-right: 0 !important
 }
-
 ::-webkit-scrollbar {
     width: 8px;
-    height: 8px;
+    height: 8px
 }
-
 ::-webkit-scrollbar-thumb {
     cursor: pointer;
-    background: #67d5b5;
+    background: #67d5b5
 }
-
 .loader {
     position: fixed;
     overflow: hidden;
@@ -32,9 +28,8 @@ html {
     height: 100%;
     background: #141414;
     color: #fff;
-    text-align: center;
+    text-align: center
 }
-
 .loader-brand {
     position: absolute;
     left: 0;
@@ -43,21 +38,17 @@ html {
     -webkit-transform: translate(0, -50%);
     -ms-transform: translate(0, -50%);
     -o-transform: translate(0, -50%);
-    transform: translate(0, -50%);
+    transform: translate(0, -50%)
 }
-
 .loader-brand img {
-    max-width: 90%;
-    background: #90c5df;
+    max-width: 90%
 }
-
 .layout {
-    overflow: hidden;
+    overflow: hidden
 }
-
 .rel-1 {
     position: relative;
-    z-index: 1;
+    z-index: 1
 }
 
 
