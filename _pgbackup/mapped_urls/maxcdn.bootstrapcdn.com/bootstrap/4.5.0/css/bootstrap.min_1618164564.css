@@ -166,6 +166,8 @@ sup {
 }
 
 a {
+    color: #007bff;
+    text-decoration: none;
     background-color: transparent;
 }
 
@@ -4795,6 +4797,7 @@ input[type=submit].btn-block {
 
 .navbar-brand:focus,
 .navbar-brand:hover {
+    text-decoration: none;
 }
 
 .navbar-nav {
@@ -5137,6 +5140,7 @@ input[type=submit].btn-block {
 
 .navbar-light .navbar-brand:focus,
 .navbar-light .navbar-brand:hover {
+    color: rgba(0,0,0,.9);
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -5162,6 +5166,7 @@ input[type=submit].btn-block {
 .navbar-light .navbar-toggler {
     border-color: rgba(0,0,0,.1);
     font-size: 25px;
+    background-color: #0097ff;
 }
 
 .navbar-light .navbar-toggler-icon {
@@ -11233,8 +11238,12 @@ button.bg-dark:hover {
     color: #fff!important;
 }
 
+.text-primary {
+}
+
 a.text-primary:focus,
 a.text-primary:hover {
+    color: #0056b3!important;
 }
 
 .text-secondary {

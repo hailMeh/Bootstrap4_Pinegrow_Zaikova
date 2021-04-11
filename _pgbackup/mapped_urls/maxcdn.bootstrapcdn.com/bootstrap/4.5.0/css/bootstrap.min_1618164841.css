@@ -166,6 +166,8 @@ sup {
 }
 
 a {
+    color: red;
+    text-decoration: none;
     background-color: transparent;
 }
 
@@ -11231,6 +11233,9 @@ button.bg-dark:hover {
 
 .text-white {
     color: #fff!important;
+}
+
+.text-primary {
 }
 
 a.text-primary:focus,
