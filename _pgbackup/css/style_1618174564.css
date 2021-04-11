@@ -82,14 +82,5 @@ html {
     background-color: #ff0000;
 }
 
-.footer_svg {
-    width: 150%;
-    height: 150%;
-    transform: translate3d(0px, 0px, 0px);
-    left: 1px;
-    padding-left: 0px;
-    padding-right: 295px;
-}
-
 
 
