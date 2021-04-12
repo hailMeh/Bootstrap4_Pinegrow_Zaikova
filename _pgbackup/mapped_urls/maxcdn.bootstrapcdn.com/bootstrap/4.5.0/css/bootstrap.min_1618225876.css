@@ -209,7 +209,6 @@ img {
 svg {
     overflow: hidden;
     vertical-align: middle;
-    color: #ff0000;
 }
 
 table {
@@ -11237,8 +11236,7 @@ a.text-primary:hover {
 }
 
 .text-secondary {
-    color: #6c757d;
-    letter-spacing: 1px;
+    color: #6c757d!important;
 }
 
 a.text-secondary:focus,
@@ -11274,7 +11272,8 @@ a.text-warning:hover {
 }
 
 .text-danger {
-    color: #ff0018;
+    color: #dc3545!important;
+    background-color: #67d5b5;
 }
 
 a.text-danger:focus,

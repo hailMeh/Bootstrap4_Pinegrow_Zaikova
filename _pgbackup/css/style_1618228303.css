@@ -176,16 +176,5 @@ html {
     }
 }
 
-.footer__svg_icon:hover {
-    width: 30px;
-    height: 30px;
-    color: #000cff;
-}
-
-.footer__svg_icon {
-    width: 30px;
-    height: 30px;
-}
-
 
 
