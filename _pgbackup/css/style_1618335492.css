@@ -471,52 +471,13 @@ html {
 }
 
 .pointercontainerknittingsecond {
-    grid-area: 6 / 8 / 7 / 10;
+    grid-area: 6 / 7 / 7 / 9;
     align-self: end;
 }
 
 .pointercontainerknittingthird {
     grid-area: 6 / 10 / 7 / 12;
     align-self: end;
-}
-
-.knittinglinetotextsecondimg {
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    position: relative;
-}
-
-.containerfortitleinaboutproduct {
-    grid-area: 2 / backgroundFirst / 5 / backgroundFirst;
-}
-
-.bubblesimgaboutproduct {
-    width: 100%;
-    height: 100%;
-    position: relative;
-    z-index: 1;
-    opacity: 0.1;
-}
-
-.bubblesimgcontainerfirst {
-    grid-area: 8 / 2 / 9 / 3;
-}
-
-.bubblesimgcontainersecond {
-    grid-area: 9 / 3 / 10 / 4;
-}
-
-.bubblesimgcontainerthird {
-    grid-area: 7 / 9 / 8 / 10;
-}
-
-.bubblesimgcontainerfour {
-    grid-area: 8 / 11 / 9 / 12;
-}
-
-.bubblesimgcontainerfive {
-    grid-area: 6 / 2 / 7 / 3;
 }
 
 
