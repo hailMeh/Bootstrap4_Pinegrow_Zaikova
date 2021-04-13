@@ -244,7 +244,7 @@ html {
 .sectionTwo {
     display: grid;
     grid-template-columns: [backgroundFirst-start] 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr [backgroundFirst-end];
-    grid-template-rows: [backgroundFirst-start] 100px 100px 100px 100px [backgroundSecond-start] 100px [backgroundFirst-end] 100px 100px 100px 100px 100px [backgroundSecond-end] 100px 100px 100px 100px 100px 100px 100px 100px;
+    grid-template-rows: [backgroundFirst-start] 100px 100px 100px 100px [backgroundSecond-start] 100px [backgroundFirst-end] 100px 100px 100px 100px 100px [backgroundSecond-end] 100px 100px 100px;
 }
 
 .sectionTwo_background {
@@ -283,16 +283,6 @@ html {
     grid-area: 9 / backgroundFirst / 14 / 5;
     width: 100%;
     height: 100%;
-}
-
-.secondpartforthirdsectionaboutme {
-    grid-area: 9 / 3 / 14 / backgroundFirst;
-}
-
-.aboutmelastpartsection {
-    width: 100%;
-    height: 100%;
-    grid-area: 12 / backgroundFirst / 19 / backgroundFirst;
 }
 
 
