@@ -407,8 +407,6 @@ html {
 
 .aboutproductsecondsectionshoesimg {
     grid-area: secondShoesImg;
-    position: relative;
-    z-index: 2;
 }
 
 .aboutproductsecondshoesimg {
@@ -416,68 +414,6 @@ html {
     height: 100%;
     position: relative;
     z-index: 1;
-}
-
-.knittingtoshoesfirst {
-    grid-area: 7 / 4 / 8 / 6;
-}
-
-.knittingtoshoesfirstimg {
-    z-index: 1;
-    position: relative;
-    width: 100%;
-    height: 100%;
-}
-
-.knittingshoessecond {
-    grid-area: 7 / 7 / 8 / 9;
-}
-
-.knittingshoessecondimg {
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    position: relative;
-}
-
-.knittingshoesthird {
-    grid-area: 7 / 9 / 9 / 11;
-}
-
-.knittingshoesthirdimg {
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    position: relative;
-}
-
-.aboutproductafterknittingtext {
-    z-index: 1;
-    color: #00dfee;
-    font-family: Roboto;
-    font-size: 20px;
-    font-weight: 500;
-    text-align: center;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: normal;
-    position: relative;
-    text-indent: -46px;
-}
-
-.pointercontainerknittingfirst {
-    grid-area: 6 / 3 / 7 / 5;
-    align-self: end;
-}
-
-.pointercontainerknittingsecond {
-    grid-area: 6 / 7 / 7 / 9;
-    align-self: end;
-}
-
-.pointercontainerknittingthird {
-    grid-area: 6 / 10 / 7 / 12;
-    align-self: end;
 }
 
 

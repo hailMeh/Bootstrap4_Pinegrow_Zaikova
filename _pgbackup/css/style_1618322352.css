@@ -451,34 +451,5 @@ html {
     position: relative;
 }
 
-.aboutproductafterknittingtext {
-    z-index: 1;
-    color: #00dfee;
-    font-family: Roboto;
-    font-size: 20px;
-    font-weight: 500;
-    text-align: center;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: normal;
-    position: relative;
-    text-indent: -46px;
-}
-
-.pointercontainerknittingfirst {
-    grid-area: 6 / 3 / 7 / 5;
-    align-self: end;
-}
-
-.pointercontainerknittingsecond {
-    grid-area: 6 / 7 / 7 / 9;
-    align-self: end;
-}
-
-.pointercontainerknittingthird {
-    grid-area: 6 / 10 / 7 / 12;
-    align-self: end;
-}
-
 
 
