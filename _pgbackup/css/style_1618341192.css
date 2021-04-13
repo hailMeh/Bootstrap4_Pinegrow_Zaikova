@@ -498,7 +498,7 @@ html {
     height: 100%;
     position: relative;
     z-index: 1;
-    opacity: 0.2;
+    opacity: 0.1;
 }
 
 .bubblesimgcontainerfirst {
@@ -522,11 +522,6 @@ html {
 }
 
 .titileaboutproductfirstsectionzaikova {
-}
-
-.aboutproductthirdse {
-    z-index: 1;
-    grid-area: 10 / 2 / 13 / 8;
 }
 
 

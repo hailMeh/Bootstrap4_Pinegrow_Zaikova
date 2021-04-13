@@ -381,8 +381,6 @@ html {
     text-align: center;
     letter-spacing: 1px;
     cursor: default;
-    position: relative;
-    z-index: 5;
 }
 
 .divbuttononaboutproductbuy {
@@ -490,7 +488,7 @@ html {
 }
 
 .containerfortitleinaboutproduct {
-    grid-area: 2 / backgroundFirst / 4 / backgroundFirst;
+    grid-area: 2 / backgroundFirst / 5 / backgroundFirst;
 }
 
 .bubblesimgaboutproduct {
@@ -498,7 +496,7 @@ html {
     height: 100%;
     position: relative;
     z-index: 1;
-    opacity: 0.2;
+    opacity: 0.1;
 }
 
 .bubblesimgcontainerfirst {
@@ -519,14 +517,6 @@ html {
 
 .bubblesimgcontainerfive {
     grid-area: 6 / 2 / 7 / 3;
-}
-
-.titileaboutproductfirstsectionzaikova {
-}
-
-.aboutproductthirdse {
-    z-index: 1;
-    grid-area: 10 / 2 / 13 / 8;
 }
 
 
