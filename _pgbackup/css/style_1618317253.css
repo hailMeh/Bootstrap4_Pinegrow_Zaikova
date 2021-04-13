@@ -245,7 +245,7 @@ html {
     display: grid;
     grid-template-columns: [backgroundFirst-start] 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr [backgroundFirst-end];
     grid-template-rows: [backgroundFirst-start] 100px 100px 100px 100px [backgroundSecond-start] 100px [backgroundFirst-end] 100px 100px 100px 100px 100px [backgroundSecond-end] 100px 100px 100px 100px 100px 100px 100px 100px;
-    grid-template-areas: '. . firstlittleellipse . . . . . . BigEllipse . .' '. . firstSectionText firstSectionText firstSectionText firstSectionText shoesImg shoesImg shoesImg shoesImg . .' '. . firstSectionText firstSectionText firstSectionText firstSectionText shoesImg shoesImg shoesImg shoesImg . .' '. . button button . secondlittleellipse shoesImg shoesImg shoesImg shoesImg . .' '. . . oneMoreBigEllipse . . . . . . . .' '. . . . . . . . . . . .' '. . . . . . . . . . . .' '. . . . . . . . . . . .' '. . . . . . . . . . . .' '. . . . . . . . . . . .' '. . . . . . . . . . . .' '. . . . . . . . . . . .' '. . . . . . . . . . . .' '. . . . . . . . . . . .' '. . . . . . . . . . . .' '. . . . . . . . . . . .' '. . . . . . . . . . . .' '. . . . . . . . . . . .';
+    grid-template-areas: '. . . . . . . . . BigEllipse . .' '. . firstSectionText firstSectionText firstSectionText firstSectionText shoesImg shoesImg shoesImg shoesImg . .' '. . firstSectionText firstSectionText firstSectionText firstSectionText shoesImg shoesImg shoesImg shoesImg . .' '. . . . . . shoesImg shoesImg shoesImg shoesImg . .' '. . . oneMoreBigEllipse . . . . . . . .' '. . . . . . . . . . . .' '. . . . . . . . . . . .' '. . . . . . . . . . . .' '. . . . . . . . . . . .' '. . . . . . . . . . . .' '. . . . . . . . . . . .' '. . . . . . . . . . . .' '. . . . . . . . . . . .' '. . . . . . . . . . . .' '. . . . . . . . . . . .' '. . . . . . . . . . . .' '. . . . . . . . . . . .' '. . . . . . . . . . . .';
 }
 
 .sectionTwo_background {
@@ -350,59 +350,6 @@ html {
 
 .onemoreellipse {
     grid-area: oneMoreBigEllipse;
-}
-
-.buttononpdoructpagefirstsection:hover {
-    width: 200px;
-    height: 50px;
-    box-shadow: 0 10px 30px rgba(20, 108, 113, 0.15), inset 0 0 2px rgba(255, 255, 255, 0.3);
-    border-radius: 25px;
-    background-color: #4cf9ff;
-    font-family: 'Roboto', sans-serif;
-    color: #ffffff;
-    font-weight: 700;
-    font-size: 14px;
-    text-transform: uppercase;
-    text-align: center;
-    letter-spacing: 1px;
-}
-
-.buttononpdoructpagefirstsection {
-    width: 200px;
-    height: 50px;
-    box-shadow: 0 10px 30px rgba(20, 108, 113, 0.15), inset 0 0 2px rgba(255, 255, 255, 0.3);
-    border-radius: 25px;
-    background-color: #00ecf4;
-    font-family: 'Roboto', sans-serif;
-    color: #ffffff;
-    font-weight: 700;
-    font-size: 14px;
-    text-transform: uppercase;
-    text-align: center;
-    letter-spacing: 1px;
-    cursor: default;
-}
-
-.divbuttononaboutproductbuy {
-    grid-area: button;
-}
-
-.littleellipseonproduct {
-    width: 100%;
-    height: 100%;
-    opacity: 0.5;
-}
-
-.firstellipsecontainer {
-    grid-area: firstlittleellipse;
-}
-
-.secondellipsecontainer {
-    grid-area: secondlittleellipse;
-}
-
-.thirdellipsecontainer {
-    grid-area: 2 / 7 / 3 / 8;
 }
 
 

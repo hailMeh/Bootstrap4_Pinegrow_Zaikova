@@ -245,7 +245,7 @@ html {
     display: grid;
     grid-template-columns: [backgroundFirst-start] 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr [backgroundFirst-end];
     grid-template-rows: [backgroundFirst-start] 100px 100px 100px 100px [backgroundSecond-start] 100px [backgroundFirst-end] 100px 100px 100px 100px 100px [backgroundSecond-end] 100px 100px 100px 100px 100px 100px 100px 100px;
-    grid-template-areas: '. . firstlittleellipse . . . . . . BigEllipse . .' '. . firstSectionText firstSectionText firstSectionText firstSectionText shoesImg shoesImg shoesImg shoesImg . .' '. . firstSectionText firstSectionText firstSectionText firstSectionText shoesImg shoesImg shoesImg shoesImg . .' '. . button button . secondlittleellipse shoesImg shoesImg shoesImg shoesImg . .' '. . . oneMoreBigEllipse . . . . . . . .' '. . . . . . . . . . . .' '. . . . . . . . . . . .' '. . . . . . . . . . . .' '. . . . . . . . . . . .' '. . . . . . . . . . . .' '. . . . . . . . . . . .' '. . . . . . . . . . . .' '. . . . . . . . . . . .' '. . . . . . . . . . . .' '. . . . . . . . . . . .' '. . . . . . . . . . . .' '. . . . . . . . . . . .' '. . . . . . . . . . . .';
+    grid-template-areas: '. . . . . . . . . BigEllipse . .' '. . firstSectionText firstSectionText firstSectionText firstSectionText shoesImg shoesImg shoesImg shoesImg . .' '. . firstSectionText firstSectionText firstSectionText firstSectionText shoesImg shoesImg shoesImg shoesImg . .' '. . button button . . shoesImg shoesImg shoesImg shoesImg . .' '. . . oneMoreBigEllipse . . . . . . . .' '. . . . . . . . . . . .' '. . . . . . . . . . . .' '. . . . . . . . . . . .' '. . . . . . . . . . . .' '. . . . . . . . . . . .' '. . . . . . . . . . . .' '. . . . . . . . . . . .' '. . . . . . . . . . . .' '. . . . . . . . . . . .' '. . . . . . . . . . . .' '. . . . . . . . . . . .' '. . . . . . . . . . . .' '. . . . . . . . . . . .';
 }
 
 .sectionTwo_background {
@@ -385,24 +385,6 @@ html {
 
 .divbuttononaboutproductbuy {
     grid-area: button;
-}
-
-.littleellipseonproduct {
-    width: 100%;
-    height: 100%;
-    opacity: 0.5;
-}
-
-.firstellipsecontainer {
-    grid-area: firstlittleellipse;
-}
-
-.secondellipsecontainer {
-    grid-area: secondlittleellipse;
-}
-
-.thirdellipsecontainer {
-    grid-area: 2 / 7 / 3 / 8;
 }
 
 
