@@ -244,7 +244,7 @@ html {
 .sectionTwo {
     display: grid;
     grid-template-columns: [backgroundFirst-start] 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr [backgroundFirst-end];
-    grid-template-rows: [backgroundFirst-start] 100px 100px 100px 100px [backgroundSecond-start] 79px [backgroundFirst-end] 100px 100px 100px 100px 100px [backgroundSecond-end] 100px 100px 100px 100px 100px 140px 100px 100px;
+    grid-template-rows: [backgroundFirst-start] 100px 100px 100px 100px [backgroundSecond-start] 79px [backgroundFirst-end] 100px 100px 100px 100px 100px [backgroundSecond-end] 100px 100px 100px 100px 100px 100px 100px 100px;
     grid-template-areas: '. . firstlittleellipse . . . . . . BigEllipse . .' '. . firstSectionText firstSectionText firstSectionText firstSectionText shoesImg shoesImg shoesImg shoesImg . .' '. . firstSectionText firstSectionText firstSectionText firstSectionText shoesImg shoesImg shoesImg shoesImg . .' '. . button button . secondlittleellipse shoesImg shoesImg shoesImg shoesImg . .' '. . . oneMoreBigEllipse . . . . . . . .' '. . . secondShoesImg secondShoesImg secondShoesImg secondShoesImg secondShoesImg secondShoesImg . . .' '. . . secondShoesImg secondShoesImg secondShoesImg secondShoesImg secondShoesImg secondShoesImg . . .' '. . . secondShoesImg secondShoesImg secondShoesImg secondShoesImg secondShoesImg secondShoesImg . . .' '. . . secondShoesImg secondShoesImg secondShoesImg secondShoesImg secondShoesImg secondShoesImg . . .' '. . . . . . . . . . . .' '. . . . . . . . . . . .' '. . . . . . . . . . . .' '. . . . . . . . . . . .' '. . . . . . . . . . . .' '. . . . . . . . . . . .' '. . . . . . . . . . . .' '. . . . . . . . . . . .' '. . . . . . . . . . . .';
 }
 
@@ -527,99 +527,6 @@ html {
 .aboutproductthirdse {
     z-index: 1;
     grid-area: 10 / 2 / 13 / 8;
-}
-
-.aboutproducttitlein3part {
-    color: #263238;
-    font-family: Roboto;
-    font-size: 60px;
-    font-weight: 700;
-    letter-spacing: normal;
-    line-height: 50px;
-    text-align: center;
-    font-style: normal;
-}
-
-.textaboutproductin3rdpart {
-    color: #263238;
-    font-family: Roboto;
-    font-size: 20px;
-    font-weight: 300;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: 23px;
-    text-align: center;
-}
-
-.containeraboutproductpart3titile {
-    grid-area: 10 / 9 / backgroundSecond / 12;
-}
-
-.containeraboutproducttext {
-    grid-area: 11 / 9 / 12 / 12;
-}
-
-.containerforimgaboutproductlastsection {
-    grid-area: 14 / 4 / 17 / 10;
-}
-
-.containerforimagelinesovershoes {
-    grid-area: 15 / 3 / 16 / 11;
-}
-
-.containerforstartinlastsectioaboutproduct {
-    grid-area: 17 / 9 / 18 / 12;
-}
-
-.starticonforotzyvy {
-    width: 16px;
-    height: 16px;
-    color: #00ecf4;
-    font-size: 20px;
-    letter-spacing: normal;
-    text-align: center;
-}
-
-.starticonforotzyvy {
-    z-index: 1;
-    position: relative;
-}
-
-.containerforstartinsideicons {
-    display: flex;
-    height: 30px;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-top: -75px;
-}
-
-.textreviewsinaboutproductsection:hover {
-    color: #4cf9ff;
-    font-family: Roboto;
-    font-size: 18px;
-    font-weight: 500;
-    font-style: normal;
-    line-height: 25px;
-    text-align: right;
-    padding-right: 23px;
-    margin-top: -13px;
-}
-
-.textreviewsinaboutproductsection {
-    color: #00ecf4;
-    font-family: Roboto;
-    font-size: 18px;
-    font-weight: 500;
-    font-style: normal;
-    line-height: 25px;
-    text-align: right;
-    padding-right: 23px;
-    margin-top: -13px;
-}
-
-.containerfortextinaboutproductsectioninlastpart {
-    grid-area: 18 / 9 / 19 / 12;
-    align-self: start;
 }
 
 
