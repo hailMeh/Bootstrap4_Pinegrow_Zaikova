@@ -758,50 +758,6 @@ html {
 }
 
 .buttonforchoosecolor {
-    background: #007ffa;
-    border: none;
-    border-radius: 25px;
-    width: 50px;
-    height: 50px;
-}
-
-.buttonforchoosecolorYellow {
-    background-color: #f5ff00;
-}
-
-.buttonforchoosecolorRed {
-    background-color: #ff0000;
-}
-
-.buttonforchoosecolorBlack {
-    background-color: #000000;
-}
-
-.buttonsinmodalcolorsmainclass {
-    background: #007ffa;
-    border: none;
-    border-radius: 25px;
-    width: 50px;
-    height: 50px;
-}
-
-.buttonsmodalcolorpickermainclass {
-    background: #007ffa;
-    border: none;
-    border-radius: 25px;
-    width: 50px;
-    height: 50px;
-}
-
-.buttonsmodalcolorpickermainclass_red {
-    background-color: #ff0000;
-}
-
-.buttonsmodalcolorpickermainclass_yellow {
-    background-color: #ffe400;
-}
-
-.buttonsmodalcolorpickermainclass_yellow {
 }
 
 

@@ -45,8 +45,6 @@ html {
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: transparent;
-    width: 100vw;
-    overflow-x: hidden;
 }
 
 article,
@@ -2900,7 +2898,6 @@ textarea.form-control.is-invalid {
 
 .btn:not(:disabled):not(.disabled) {
     cursor: pointer;
-    width: 2;
 }
 
 a.btn.disabled,
