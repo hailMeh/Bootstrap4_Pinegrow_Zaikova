@@ -831,7 +831,8 @@ html {
 }
 
 .containerTitleClean {
-    grid-area: 2 / 3 / 3 / 5;
+    grid-area: 2 / 2 / 3 / 5;
+    align-self: start;
 }
 
 .INcontainerTitleClean {
@@ -843,7 +844,6 @@ html {
     line-height: 60px;
     text-align: center;
     text-transform: uppercase;
-    text-indent: -46px;
     position: relative;
     z-index: 2;
 }
@@ -867,6 +867,7 @@ html {
     grid-area: 6 / 2 / 7 / 5;
     padding-top: 0px;
     margin-top: -31px;
+    align-self: end;
 }
 
 .INcontainerTextSecondClean {
@@ -876,17 +877,8 @@ html {
     font-weight: 500;
     font-style: normal;
     letter-spacing: normal;
-    line-height: normal;
     text-align: left;
-}
-
-.containerWavesImg {
-    width: 100%;
-    height: 100%;
-    position: relative;
-    grid-area: 3 / 2 / 4 / 3;
-    z-index: 0;
-    align-self: end;
+    line-height: normal;
 }
 
 .INcontainerWavesImg {
@@ -934,6 +926,18 @@ html {
 }
 
 .RowForTitleInSizeAdvise {
+}
+
+.ContainerWavesImg {
+    grid-area: 5 / 2 / 6 / 5;
+}
+
+.wavesimginDVIZE {
+    height: 50%;
+    position: relative;
+    z-index: -1;
+    margin-bottom: 66px;
+    margin-top: 51px;
 }
 
 

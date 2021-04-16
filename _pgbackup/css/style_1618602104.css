@@ -1,5 +1,7 @@
 html {
     -webkit-font-smoothing: antialiased;
+    width: 100vw;
+    overflow-x: hidden;
 }
 
 .rev_slider_wrapper {
@@ -755,6 +757,188 @@ html {
     flex-direction: row-reverse;
     align-items: flex-end;
     grid-area: 4 / 7 / 6 / 8;
+}
+
+.buttonforchoosecolor {
+    background: #007ffa;
+    border: none;
+    border-radius: 25px;
+    width: 50px;
+    height: 50px;
+}
+
+.buttonforchoosecolorYellow {
+    background-color: #f5ff00;
+}
+
+.buttonforchoosecolorRed {
+    background-color: #ff0000;
+}
+
+.buttonforchoosecolorBlack {
+    background-color: #000000;
+}
+
+.buttonsinmodalcolorsmainclass {
+    background: #007ffa;
+    border: none;
+    border-radius: 25px;
+    width: 50px;
+    height: 50px;
+}
+
+.buttonsmodalcolorpickermainclass {
+    background: #007ffa;
+    border: none;
+    border-radius: 25px;
+    width: 50px;
+    height: 50px;
+}
+
+.buttonsmodalcolorpickermainclass_red {
+    background-color: #ff0000;
+}
+
+.buttonsmodalcolorpickermainclass_yellow {
+    background-color: #ffe400;
+}
+
+.buttonsmodalcolorpickermainclass_yellow {
+}
+
+.containerArrowDirtyBoots {
+    width: 100%;
+    height: 100%;
+    grid-area: 6 / 4 / 7 / 5;
+    top: 55px;
+    left: 95px;
+    position: relative;
+}
+
+.arrowDirtyBoots {
+    width: 50%;
+    height: 50%;
+    color: #0045ff;
+}
+
+.containerImgDirtyBoots {
+    grid-area: 2 / 6 / 7 / 11;
+}
+
+.INcontainerImgDirtyBoots {
+    width: 100%;
+    height: 100%;
+}
+
+.containerTitleClean {
+    grid-area: 2 / 2 / 3 / 5;
+    align-self: start;
+}
+
+.INcontainerTitleClean {
+    color: #444343;
+    font-family: "Fjalla One";
+    font-size: 33px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    text-indent: -46px;
+    position: relative;
+    z-index: 2;
+}
+
+.containerTextFirstClean {
+    grid-area: 4 / 2 / 5 / 5;
+}
+
+.INcontainerTextFirstClean {
+    color: #5e656a;
+    font-family: Lato;
+    font-size: 17px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+}
+
+.containerTextSecondClean {
+    grid-area: 6 / 2 / 7 / 5;
+    padding-top: 0px;
+    margin-top: -31px;
+    align-self: end;
+}
+
+.INcontainerTextSecondClean {
+    color: #5e656a;
+    font-family: Lato;
+    font-size: 17px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    line-height: normal;
+}
+
+.INcontainerWavesImg {
+    width: 100%;
+    height: 100%;
+}
+
+.containerButtonForClean {
+    grid-area: 6 / 4 / 7 / 5;
+    align-self: end;
+}
+
+.INcontainerButtonForClean {
+    background-color: #0068c1;
+    color: #ffffff;
+    border-radius: 36px;
+    border-width: 1px;
+    border-color: #0482ff;
+}
+
+.containerCleanBootsIMGNotVisible {
+    grid-area: 2 / 6 / 7 / 11;
+}
+
+.INcontainerCleanBootsIMGNotVisible {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.containerForStartinTestimonials {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px;
+    grid-area: 2 / 4 / 3 / 5;
+}
+
+.GridContainerCleaningShoes {
+    display: grid;
+    grid-template-columns: 75px 1fr 1fr 2fr 40px 1fr 1fr 1fr 1fr 1fr 50px;
+    grid-template-rows: 100px 100px 52px 100px 100px 100px 100px 100px;
+}
+
+.FLEXcontainerforSizeAdvice {
+}
+
+.RowForTitleInSizeAdvise {
+}
+
+.ContainerWavesImg {
+    grid-area: 5 / 2 / 6 / 5;
+}
+
+.wavesimginDVIZE {
+    height: 50%;
+    position: relative;
+    z-index: -1;
+    margin-bottom: 66px;
+    margin-top: 51px;
 }
 
 
