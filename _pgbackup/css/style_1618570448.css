@@ -806,20 +806,5 @@ html {
 .buttonsmodalcolorpickermainclass_yellow {
 }
 
-.containerArrowDirtyBoots {
-    width: 100%;
-    height: 100%;
-    grid-area: 6 / 4 / 7 / 5;
-    top: 55px;
-    left: 95px;
-    position: relative;
-}
-
-.arrowDirtyBoots {
-    width: 50%;
-    height: 50%;
-    color: #0045ff;
-}
-
 
 
