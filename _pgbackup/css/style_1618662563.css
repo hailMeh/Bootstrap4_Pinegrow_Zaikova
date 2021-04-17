@@ -1036,7 +1036,7 @@ html {
 
 .INtitledeliverytext {
     color: #444343;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Fjalla One";
     font-size: 40px;
     font-weight: 500;
     font-style: normal;
@@ -1044,14 +1044,10 @@ html {
     text-transform: uppercase;
     position: relative;
     z-index: 2;
-    text-indent: 25px;
+    text-align: center;
 }
 
 .INdotsintitlledelivery {
-}
-
-.ROWfordeliveryimgs {
-    height: 750px;
 }
 
 

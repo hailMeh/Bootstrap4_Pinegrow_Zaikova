@@ -396,7 +396,6 @@ h2 {
 .h3,
 h3 {
     font-size: 1.75rem;
-    text-align: center;
 }
 
 .h4,
@@ -7921,7 +7920,7 @@ button.bg-dark:hover {
 
 .align-items-center {
     -ms-flex-align: center!important;
-    align-items: center;
+    align-items: center!important;
 }
 
 .align-items-baseline {

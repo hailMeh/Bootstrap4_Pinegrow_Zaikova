@@ -1036,22 +1036,20 @@ html {
 
 .INtitledeliverytext {
     color: #444343;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 40px;
+    font-family: "Fjalla One";
+    font-size: 33px;
     font-weight: 500;
     font-style: normal;
     line-height: 60px;
     text-transform: uppercase;
     position: relative;
     z-index: 2;
-    text-indent: 25px;
+    text-align: center;
 }
 
 .INdotsintitlledelivery {
-}
-
-.ROWfordeliveryimgs {
-    height: 750px;
+    position: relative;
+    left: -12px;
 }
 
 

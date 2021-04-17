@@ -7921,7 +7921,8 @@ button.bg-dark:hover {
 
 .align-items-center {
     -ms-flex-align: center!important;
-    align-items: center;
+    align-items: center!important;
+    flex-direction: row;
 }
 
 .align-items-baseline {
