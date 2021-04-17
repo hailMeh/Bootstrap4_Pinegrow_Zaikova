@@ -956,9 +956,10 @@ html {
 }
 
 .titleaboutme {
-    grid-area: 1 / 2 / 2 / 3;
+    grid-area: 1 / 1 / 2 / 6;
     width: 100%;
     height: 100%;
+    text-align: center;
 }
 
 .myphoto {
@@ -1052,6 +1053,9 @@ html {
 
 .ROWfordeliveryimgs {
     height: 750px;
+}
+
+.star {
 }
 
 
