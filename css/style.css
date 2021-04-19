@@ -956,10 +956,9 @@ html {
 }
 
 .titleaboutme {
-    grid-area: 1 / 1 / 2 / 6;
+    grid-area: 1 / 2 / 2 / 3;
     width: 100%;
     height: 100%;
-    text-align: center;
 }
 
 .myphoto {
@@ -984,7 +983,7 @@ html {
 
 .backgroundicon {
     grid-area: 1 / 2 / 3 / 3;
-    background-color: #8ff0ef;
+    background-color: #51c4d6;
     position: relative;
     z-index: 0;
 }
@@ -1097,6 +1096,11 @@ span a {
     box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
     transform: translatey(0px);
     animation: float 6s ease-in-out infinite;
+}
+
+.lines {
+    margin-top: 35px;
+    margin-left: -5px;
 }
 }
 
