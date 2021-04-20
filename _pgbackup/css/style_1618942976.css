@@ -842,9 +842,7 @@ html {
     font-weight: 500;
     font-style: normal;
     line-height: 60px;
-    text-align: center;
     text-transform: uppercase;
-    text-indent: -46px;
     position: relative;
     z-index: 2;
 }
@@ -940,6 +938,172 @@ html {
     margin-bottom: 66px;
     margin-top: 51px;
 }
+
+.aboutme {
+}
+
+.divaboutme {
+    width: 100%;
+    height: 100%;
+}
+
+.mystory {
+    grid-area: 1 / 2 / 2 / 3;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    padding-top: 20px;
+}
+
+.titleaboutme {
+    grid-area: 1 / 2 / 2 / 3;
+    width: 100%;
+    height: 100%;
+}
+
+.myphoto {
+    height: 100%;
+    margin-left: auto;
+}
+
+.icons {
+}
+
+.threeicons {
+    margin-bottom: 40px;
+}
+
+.delivery {
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 1;
+}
+
+.backgroundicon {
+    grid-area: 1 / 2 / 3 / 3;
+    background-color: #51c4d6;
+    position: relative;
+    z-index: 0;
+}
+
+.handmadeicon {
+    height: 100%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.iconinst {
+    height: 100%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.textdelivery {
+    grid-area: 2 / 2 / 3 / 3;
+    position: relative;
+    text-align: center;
+    line-height: 23px;
+    font-size: 26px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    padding-top: 10px;
+}
+
+.texthandmade {
+}
+
+.textinst {
+    position: relative;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 26px;
+}
+
+.INtitletextsizing {
+    color: #444343;
+    font-family: "Fjalla One";
+    font-size: 33px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 60px;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+}
+
+.INtitledeliverytext {
+    color: #444343;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 60px;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 2;
+    text-indent: 25px;
+}
+
+.INdotsintitlledelivery {
+}
+
+.ROWfordeliveryimgs {
+    height: 750px;
+}
+
+.star {
+}
+
+span a {
+    font-size: 42px;
+    color: pink;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: all 0.4s ease-in-out;
+
+    &:hover {
+        color: #ffffff;
+    }
+}
+
+@keyframes float {
+    0% {
+        box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+        transform: translatey(0px);
+    }
+
+    50% {
+        box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+        transform: translatey(-20px);
+    }
+
+    100% {
+        box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+        transform: translatey(0px);
+    }
+}
+
+.avatar {
+    width: 120px;
+    height: 120px;
+    box-sizing: border-box;
+    border: 3px white solid;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+    transform: translatey(0px);
+    animation: float 6s ease-in-out infinite;
+}
+
+.lines {
+    margin-top: 35px;
+    margin-left: -5px;
+}
+}
+
 
 
 
