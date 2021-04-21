@@ -284,7 +284,17 @@ Make It Long & Maybe
                     <h5 class="textsellonsellsectiontitle">Slip-on collection</h5> 
                     <p class="selltextonsellpage">Цена - 5000Р</p>
                     <p class="textinsellpagegrey">Полностью ручная работа. Легкие, дышащие и мегакомфортные. По индивидуальным меркам. Без применения клея. Гарантия 1 год</p>
-                    <p class="textinsellpagegrey">Полностью ручная работа. Легкие, дышащие и мегакомфортные. По индивидуальным меркам. Без применения клея. Гарантия 1 год</p> 
+                    <h2 class="textsellonsellsectiontitle">Цвета</h2>
+                    <div class="col-md-12 d-flex flex-row justify-content-around">                          
+
+                        <button type="button" class="buttonsforSalepage buttonsforSalepagebegeviy" data-bs-html="false"></button>
+                        <button type="button" class="buttonsforSalepage buttonsforSalepagegolubayanezh"></button>
+                        <button type="button" class="buttonsforSalepage buttonsforSalepageJeans"></button>
+                        <button type="button" class="buttonsforSalepage buttonsforSalepagegrafit"></button>
+                        <button type="button" class="buttonsforSalepage buttonsforSalepageneoncorall"></button>
+                        <button type="button" class="buttonsforSalepage buttonsforSalepagekrasniy"></button>
+                        <button type="button" class="buttonsforSalepage buttonsforSalepagechairoza"></button>
+                    </div>                     
                 </div>
             </div>
         </div>         
@@ -524,5 +534,17 @@ lottie.loadAnimation({
 });
 
 </script>         
+        <script>
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+    return new bootstrap.Tooltip(tooltipTriggerEl)
+})
+</script>
+        <script>
+    var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'));
+var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+    return new bootstrap.Popover(popoverTriggerEl);
+})
+</script>
     </body>     
 </html>
