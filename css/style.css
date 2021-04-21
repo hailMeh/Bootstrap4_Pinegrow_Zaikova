@@ -1124,6 +1124,31 @@ span a {
     background: linear-gradient(90deg, #5433FF, #20BDFF, #A5FECB);
     font-family: 'Montserrat Alternates', sans-serif;
 }
+
+.textinsellpagegrey {
+    opacity: 0.7;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #00000;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1.4px;
+}
+
+.selltextonsellpage {
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: 2.8px;
+    color: #0101ee;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.textsellonsellsectiontitle {
+    font-family: 'Montserrat', sans-serif;
+    color: #00000;
+    font-size: 28px;
+    letter-spacing: 2.24px;
+    font-weight: 400;
+}
 }
 
 
