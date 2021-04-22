@@ -454,8 +454,8 @@ body {
 }
 
 .knittingshoesthirdimg {
-    width: 100%;
     height: 100%;
+    width: 100%;
     z-index: 1;
     position: relative;
 }
@@ -969,6 +969,7 @@ body {
 .myphoto {
     height: 100%;
     margin-left: auto;
+    border: 2px solid #0dcaf0 !important;
 }
 
 .icons {
