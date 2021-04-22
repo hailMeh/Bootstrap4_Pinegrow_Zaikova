@@ -1162,10 +1162,6 @@ span a {
     margin-top: 10px;
 }
 
-.buttonsforSalepagebegeviy {
-    background-color: #dcd1c5;
-}
-
 .buttonsforSalepagegolubayanezh {
     background-color: #aaecee;
 }
@@ -1188,6 +1184,14 @@ span a {
 
 .buttonsforSalepagechairoza {
     background-color: #faf3b1;
+}
+
+.buttonsforSalepagegolnezh {
+    background-color: #aaecee;
+}
+
+.buttonsforSalepagebezh {
+    background-color: #dcd1c5;
 }
 }
 
