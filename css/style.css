@@ -1213,6 +1213,12 @@ span a {
     background-attachment: fixed;
     background-size: cover;
 }
+
+.otzyvyimgs {
+    width: 100%;
+    height: 75%;
+    object-fit: contain;
+}
 }
 
 
