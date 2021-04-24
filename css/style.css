@@ -1251,6 +1251,10 @@ span a {
     letter-spacing: 0px;
     font-weight: 400;
 }
+
+.containerfordeliverysecion {
+    background: -webkit-linear-gradient(top, rgb(17, 153, 142) 0%, rgb(27, 227, 95) 100%);
+}
 }
 
 
