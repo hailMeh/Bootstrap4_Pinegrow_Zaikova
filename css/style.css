@@ -427,6 +427,7 @@ body {
     height: 100%;
     position: relative;
     z-index: 1;
+    width: 100%;
 }
 
 .knittingtoshoesfirst {
@@ -441,7 +442,7 @@ body {
 }
 
 .knittingshoessecond {
-    grid-area: 7 / 7 / 8 / 9;
+    grid-area: 8 / 2 / 10 / 4;
 }
 
 .knittingshoessecondimg {
@@ -477,17 +478,17 @@ body {
 }
 
 .pointercontainerknittingfirst {
-    grid-area: 6 / 3 / 7 / 5;
+    grid-area: 8 / backgroundFirst / 9 / 5;
     align-self: end;
 }
 
 .pointercontainerknittingsecond {
-    grid-area: 6 / 8 / 7 / 10;
+    grid-area: 6 / 8 / 4 / 10;
     align-self: end;
 }
 
 .pointercontainerknittingthird {
-    grid-area: 6 / 10 / 7 / 12;
+    grid-area: 6 / 10 / 5 / 12;
     align-self: end;
 }
 
@@ -541,7 +542,7 @@ body {
 .aboutproducttitlein3part {
     color: #263238;
     font-family: Roboto;
-    font-size: 60px;
+    font-size: 44px;
     font-weight: 700;
     letter-spacing: normal;
     line-height: 50px;
@@ -556,7 +557,7 @@ body {
     font-weight: 300;
     font-style: normal;
     letter-spacing: normal;
-    line-height: 23px;
+    line-height: 27px;
     text-align: center;
 }
 
@@ -1225,29 +1226,20 @@ span a {
 .imgforotzyvymain {
 }
 
-.containerforotzyvy {
-    background: -webkit-linear-gradient(top, rgb(220, 227, 91) 0%, rgb(170, 212, 85) 32%, rgb(140, 166, 219) 91.3706%);
-}
-
 .buttonmoreotzyvy {
-    display: inline-block;
-    left: auto;
-    top: auto;
-    bottom: auto;
-    right: auto;
-    margin-bottom: 40px;
-    margin-left: 42%;
-    border-radius: 6px;
-    border-color: #8fa5db;
-    margin-top: 20px;
-    font-family: 'Montserrat Alternates', sans-serif;
-    width: 300px;
+    width: 200px;
     height: 50px;
-    background: -webkit-linear-gradient(bottom, rgb(131, 96, 195) 0%, rgb(46, 191, 145) 100%);
+    box-shadow: 0 10px 30px rgba(20, 108, 113, 0.15), inset 0 0 2px rgba(255, 255, 255, 0.3);
+    border-radius: 25px;
     color: #ffffff;
-    font-size: 22px;
-    letter-spacing: 0px;
     font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: default;
+    z-index: 5;
+    font-family: 'Montserrat Alternates', sans-serif;
+    background: linear-gradient(90deg, #E8CBC0, #636FA4);
 }
 
 .classforpersik {
