@@ -361,30 +361,33 @@ body {
     grid-area: oneMoreBigEllipse;
 }
 
-.buttononpdoructpagefirstsection:hover {
-    width: 200px;
-    height: 50px;
-    box-shadow: 0 10px 30px rgba(20, 108, 113, 0.15), inset 0 0 2px rgba(255, 255, 255, 0.3);
-    border-radius: 25px;
-    background-color: #4cf9ff;
-    font-family: 'Roboto', sans-serif;
-    color: #ffffff;
-    font-weight: 700;
-    font-size: 14px;
-    text-transform: uppercase;
-    text-align: center;
-    letter-spacing: 1px;
-}
-
 .buttononpdoructpagefirstsection {
     width: 200px;
     height: 50px;
     box-shadow: 0 10px 30px rgba(20, 108, 113, 0.15), inset 0 0 2px rgba(255, 255, 255, 0.3);
     border-radius: 25px;
     background-color: #00ecf4;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #ffffff;
-    font-weight: 700;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+    cursor: default;
+    position: relative;
+    z-index: 5;
+}
+
+.buttononpdoructpagefirstsection:hover {
+    width: 200px;
+    height: 50px;
+    box-shadow: 0 10px 30px rgba(20, 108, 113, 0.15), inset 0 0 2px rgba(255, 255, 255, 0.3);
+    border-radius: 25px;
+    background-color: #00ecf4;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-weight: 600;
     font-size: 14px;
     text-transform: uppercase;
     text-align: center;
@@ -1140,11 +1143,12 @@ span a {
 }
 
 .selltextonsellpage {
-    font-size: 32px;
+    font-size: 24px;
     font-weight: 400;
     letter-spacing: 2.8px;
-    color: #0101ee;
+    color: #cd63ed;
     font-family: 'Montserrat Alternates', sans-serif;
+    text-align: left;
 }
 
 .textsellonsellsectiontitle {
@@ -1297,6 +1301,17 @@ span a {
     font-size: 110px;
     line-height: 95px;
     font-weight: lighter;
+}
+
+.sellbuttonstylekastil {
+    background: -webkit-linear-gradient(right, rgb(255, 110, 127) 0%, rgb(191, 233, 255) 100%);
+}
+
+.5000 {
+}
+
+.newspringoffer {
+    text-align: center;
 }
 }
 
