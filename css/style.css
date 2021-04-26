@@ -1280,6 +1280,24 @@ span a {
     z-index: 2;
     text-align: center;
 }
+
+.handmadetext {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 90px;
+    font-weight: 400;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+    text-align: center;
+    word-break: break-word;
+    line-height: 72px;
+    opacity: 0.3;
+}
+
+.onlytext {
+    font-size: 110px;
+    line-height: 95px;
+    font-weight: lighter;
+}
 }
 
 
