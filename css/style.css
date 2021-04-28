@@ -1240,16 +1240,24 @@ span a {
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    cursor: default;
     z-index: 5;
     font-family: 'Montserrat Alternates', sans-serif;
     background: linear-gradient(90deg, #E8CBC0, #636FA4);
 }
 
-.classforpersik {
-}
-
-.classforpersik {
+.buttonmoreotzyvy:hover {
+    width: 200px;
+    height: 50px;
+    box-shadow: 0 10px 30px rgba(20, 108, 113, 0.15), inset 0 0 2px rgba(255, 255, 255, 0.3);
+    border-radius: 25px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    z-index: 5;
+    font-family: 'Montserrat Alternates', sans-serif;
+    background: linear-gradient(90deg, #E8CBC0, #636FA4);
 }
 
 .dividerpersik {
