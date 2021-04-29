@@ -1320,6 +1320,30 @@ span a {
 .newspringoffer {
     text-align: center;
 }
+
+.slidetest {
+    width: 90%;
+}
+
+.textforslideerzaikova {
+    z-index: 5;
+    font-size: 58px;
+    text-transform: uppercase;
+    letter-spacing: 0.7em;
+    font-weight: 700;
+    color: white;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.textonslidezaikova {
+    z-index: 5;
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    font-weight: 500;
+    color: white;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
 }
 
 
