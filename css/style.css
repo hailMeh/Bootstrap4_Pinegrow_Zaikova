@@ -1329,20 +1329,22 @@ span a {
     z-index: 5;
     font-size: 58px;
     text-transform: uppercase;
-    letter-spacing: 0.7em;
+    letter-spacing: 0.2em;
     font-weight: 700;
     color: white;
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 2px 2px 10px;
 }
 
 .textonslidezaikova {
     z-index: 5;
     font-size: 36px;
+    letter-spacing: 0.2em;
+    font-weight: 700;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
     text-transform: uppercase;
-    letter-spacing: 0.3em;
-    font-weight: 500;
-    color: white;
-    font-family: 'Montserrat Alternates', sans-serif;
 }
 }
 
