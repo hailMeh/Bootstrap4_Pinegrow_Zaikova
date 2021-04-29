@@ -14,11 +14,8 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat+Alternates&display=swap"> 
         <link rel="stylesheet" href="blocks.css"> 
-        <link rel="stylesheet" href="css/froala_blocks.min.css"> 
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"> 
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap"> 
-        <link rel="stylesheet" href="pgia/components/controls.css"> 
-        <link rel="stylesheet" href="pgia/components/slider.css"> 
     </head>     
     <body> 
         <div class="layout"> 
@@ -85,7 +82,7 @@
                         </div>
                     </div>
                 </div>
-            </div>                          
+            </div>             
         </div>         
         <div class="container-fluid h-scrolling-block overflow-hidden pb-lg-0 pt-lg-0 py-lg-5" data-pg-ia-scene='{"dir":"a","smooth":"1","s":"onEnter","l":[{"t":"this","a":{"l":[{"t":".row","l":[{"t":"tween","p":0,"d":1,"l":{"x":"-100vh"},"e":"Linear.easeNone"}]}]}}]}'> 
             <div class="flex-nowrap g-0 row"> 
@@ -483,99 +480,8 @@
         <script src="js/bootstrap.min.js"></script>         
         <script src="js/jquery.viewport.js"></script>         
         <script src="js/interface.js"></script>         
-        <!-- SLIDER REVOLUTION -->         
-        <script src="js/rev-slider/jquery.themepunch.tools.min.js"></script>         
-        <script src="js/rev-slider/jquery.themepunch.revolution.min.js"></script>         
-        <!-- SLIDER REVOLUTION 5.0 EXTENSIONS   -->         
-        <script src="js/rev-slider/revolution.extension.actions.min.js"></script>         
-        <script src="js/rev-slider/revolution.extension.carousel.min.js"></script>         
-        <script src="js/rev-slider/revolution.extension.kenburn.min.js"></script>         
-        <script src="js/rev-slider/revolution.extension.layeranimation.min.js"></script>         
-        <script src="js/rev-slider/revolution.extension.migration.min.js"></script>         
-        <script src="js/rev-slider/revolution.extension.navigation.min.js"></script>         
-        <script src="js/rev-slider/revolution.extension.parallax.min.js"></script>         
-        <script src="js/rev-slider/revolution.extension.slideanims.min.js"></script>         
-        <script src="js/rev-slider/revolution.extension.video.min.js"></script>         
-        <script>
-    if (typeof $.fn.revolution !== 'undefined') {
-
-        $("#rev_slider").revolution({
-            sliderType: "standard",
-            sliderLayout: "fullscreen",
-            dottedOverlay: "none",
-            delay: 7000,
-            navigation: {
-                keyboardNavigation: "off",
-                keyboard_direction: "horizontal",
-                onHoverStop: "off",
-                touch: {
-                    touchenabled: "on",
-                    swipe_threshold: 75,
-                    swipe_min_touches: 1,
-                    swipe_direction: "horizontal",
-                    drag_block_vertical: false
-                },
-                bullets: {
-                    enable: true,
-                    hide_onmobile: true,
-                    hide_under: 767,
-                    style: "custom",
-                    hide_onmobile: true,
-                    hide_onleave: true,
-                    direction: "horizontal",
-                    h_align: "center",
-                    v_align: "bottom",
-                    h_offset: 0,
-                    v_offset: 40,
-                    space: 8,
-                    tmp: '<span class="tp-bullet-inner"></span>'
-                }
-            },
-            viewPort: {
-                enable: true,
-                outof: "pause",
-                visible_area: "80%"
-            },
-            responsiveLevels: [1240, 1024, 778, 480],
-            gridwidth: [800],
-            gridheight: [600],
-            lazyType: "none",
-            shadow: 0,
-            spinner: "off",
-            stopLoop: "on",
-            stopAfterLoops: 0,
-            shuffle: "off",
-            autoHeight: "off",
-            fullScreenAlignForce: "off",
-            fullScreenOffsetContainer: "",
-            fullScreenOffset: "",
-            disableProgressBar: "on",
-            hideThumbsOnMobile: "off",
-            hideSliderAtLimit: 0,
-            hideCaptionAtLimit: 0,
-            hideAllCaptionAtLilmit: 0,
-            debugMode: false,
-            fallbacks: {
-                simplifyAll: "off",
-                nextSlideOnWindowFocus: "off",
-                disableFocusListener: false,
-            }
-        });
-    }
-</script>         
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>         
         <script src="pgia/lib/pgia.js"></script>         
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.8/lottie.min.js" integrity="sha512-w58XJ/0dVbEfZVJoJyBUOTMGBWmIW4jEYJSA0898d2L0Ghpum0FvwK7qTuHhkTctApzrchv3Neli+28ajI4+fg==" crossorigin="anonymous"></script>         
-        <script>
-lottie.loadAnimation({
-    container: document.getElementById('lottie_footer_svg'),
-    renderer: 'svg',
-    loop: true,
-    autoplay: true,
-    path: 'footersvg.json'
-});
-
-</script>         
         <script>
     var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
 var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
