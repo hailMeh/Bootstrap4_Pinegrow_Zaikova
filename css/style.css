@@ -31,9 +31,6 @@ body {
     background: linear-gradient(90deg, #7F7FD5, #86A8E7, #91EAE4);
 }
 
-#navbarhide::-webkit-scrollbar {
-    width: 0px;
-}
 
 .loader {
     position: fixed;
@@ -95,110 +92,6 @@ body {
     background-color: #ff0000;
 }
 
-.footer_svg {
-    width: 150%;
-    height: 150%;
-    transform: translate3d(0px, 0px, 0px);
-    left: 1px;
-    padding-left: 0px;
-    padding-right: 295px;
-}
-
-.footer__grid {
-}
-
-.footer__grid {
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
-    grid-template-rows: minmax(100px, auto) minmax(100px, auto);
-    grid-template-areas: 'SVG social social' 'SVG copyright copyright';
-}
-
-.footer__grid_svg {
-    grid-area: 1 / 1 / 3 / 2;
-}
-
-.footer__grid_copyrightText {
-    grid-area: 2 / 2 / 3 / 4;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
-    color: #ff0000;
-    letter-spacing: 1px;
-    font-weight: 700;
-}
-
-.footer__copyright_svg {
-}
-
-@media (min-width:576px) {
-    .footer__grid_social {
-        grid-area: 1 / 2 / 2 / 4;
-        align-items: center;
-        justify-content: center;
-        text-indent: 10px;
-    }
-}
-
-.footer__grid_p {
-    color: #ff0000;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    letter-spacing: 1px;
-    font-size: 24px;
-}
-
-.footer__grid_p {
-    color: #ff0000;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    letter-spacing: 1px;
-    font-size: 24px;
-}
-
-.footer__grid_svgPic {
-    width: 100%;
-    height: 100%;
-    transform: translate3d(0px, 0px, 0px);
-}
-
-@media (max-width:575px) {
-    .footer__grid_social {
-        position: absolute;
-        left: 109px;
-    }
-
-    .footer__grid_svg {
-        width: 156%;
-        height: 100%;
-        transform: translate3d(0px, 0px, 0px);
-    }
-
-    .footer__grid_copyrightText {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 23px;
-        grid-column: 1;
-        padding-top: 92px;
-        grid-area: text;
-    }
-
-    .footer__grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: minmax(100px, auto) [content-end] minmax(300px, 1fr);
-        grid-template-areas: 'svg social' 'text text';
-    }
-}
-
-.footer__svg_icon:hover {
-    width: 30px;
-    height: 30px;
-    color: #000cff;
-}
-
-.footer__svg_icon {
-    width: 30px;
-    height: 30px;
-}
 
 .sectionAbout__grid {
     display: grid;
@@ -322,8 +215,6 @@ body {
     grid-area: shoesImg;
 }
 
-.aboutmerazerimg {
-}
 
 .aboutmefirstsectiontext {
     width: 400px;
@@ -538,8 +429,7 @@ body {
     grid-area: 6 / 2 / 7 / 3;
 }
 
-.titileaboutproductfirstsectionzaikova {
-}
+
 
 .aboutproductthirdse {
     z-index: 1;
@@ -818,8 +708,7 @@ body {
     background-color: #ffe400;
 }
 
-.buttonsmodalcolorpickermainclass_yellow {
-}
+
 
 .containerArrowDirtyBoots {
     width: 100%;
@@ -936,11 +825,6 @@ body {
     grid-template-rows: 100px 100px 52px 100px 100px 100px 100px 100px;
 }
 
-.FLEXcontainerforSizeAdvice {
-}
-
-.RowForTitleInSizeAdvise {
-}
 
 .ContainerWavesImg {
     grid-area: 5 / 2 / 6 / 5;
@@ -954,8 +838,7 @@ body {
     margin-top: 51px;
 }
 
-.aboutme {
-}
+
 
 .divaboutme {
     width: 100%;
@@ -982,8 +865,7 @@ body {
     border: 2px solid #0dcaf0 !important;
 }
 
-.icons {
-}
+
 
 .threeicons {
     margin-bottom: 40px;
@@ -1028,8 +910,7 @@ body {
     padding-top: 10px;
 }
 
-.texthandmade {
-}
+
 
 .textinst {
     position: relative;
@@ -1070,9 +951,6 @@ span a {
     margin: 0 10px;
     transition: all 0.4s ease-in-out;
 
-    &:hover {
-        color: red;
-    }
 }
 
 @keyframes float {
@@ -1135,7 +1013,7 @@ span a {
 .textinsellpagegrey {
     opacity: 0.7;
     font-family: 'Montserrat Alternates', sans-serif;
-    color: #00000;
+    color: black;
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 1.4px;
@@ -1152,7 +1030,7 @@ span a {
 
 .textsellonsellsectiontitle {
     font-family: 'Montserrat', sans-serif;
-    color: #00000;
+    color: black;
     font-size: 28px;
     letter-spacing: 2.24px;
     font-weight: 400;
@@ -1226,8 +1104,6 @@ span a {
     border-radius: 20px;
 }
 
-.imgforotzyvymain {
-}
 
 .buttonmoreotzyvy {
     width: 200px;
@@ -1314,8 +1190,6 @@ span a {
     background: -webkit-linear-gradient(right, rgb(255, 110, 127) 0%, rgb(191, 233, 255) 100%);
 }
 
-.5000 {
-}
 
 .newspringoffer {
     text-align: center;
@@ -1346,7 +1220,7 @@ span a {
     text-align: center;
     text-transform: uppercase;
 }
-}
+
 
 
 
