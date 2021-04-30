@@ -31,7 +31,6 @@ body {
     background: linear-gradient(90deg, #7F7FD5, #86A8E7, #91EAE4);
 }
 
-
 .loader {
     position: fixed;
     overflow: hidden;
@@ -91,7 +90,6 @@ body {
 .navi__burger {
     background-color: #ff0000;
 }
-
 
 .sectionAbout__grid {
     display: grid;
@@ -214,7 +212,6 @@ body {
     height: 100%;
     grid-area: shoesImg;
 }
-
 
 .aboutmefirstsectiontext {
     width: 400px;
@@ -428,8 +425,6 @@ body {
 .bubblesimgcontainerfive {
     grid-area: 6 / 2 / 7 / 3;
 }
-
-
 
 .aboutproductthirdse {
     z-index: 1;
@@ -708,8 +703,6 @@ body {
     background-color: #ffe400;
 }
 
-
-
 .containerArrowDirtyBoots {
     width: 100%;
     height: 100%;
@@ -825,7 +818,6 @@ body {
     grid-template-rows: 100px 100px 52px 100px 100px 100px 100px 100px;
 }
 
-
 .ContainerWavesImg {
     grid-area: 5 / 2 / 6 / 5;
 }
@@ -837,8 +829,6 @@ body {
     margin-bottom: 66px;
     margin-top: 51px;
 }
-
-
 
 .divaboutme {
     width: 100%;
@@ -864,8 +854,6 @@ body {
     margin-left: auto;
     border: 2px solid #0dcaf0 !important;
 }
-
-
 
 .threeicons {
     margin-bottom: 40px;
@@ -910,8 +898,6 @@ body {
     padding-top: 10px;
 }
 
-
-
 .textinst {
     position: relative;
     font-family: 'Montserrat Alternates', sans-serif;
@@ -950,7 +936,6 @@ span a {
     text-decoration: none;
     margin: 0 10px;
     transition: all 0.4s ease-in-out;
-
 }
 
 @keyframes float {
@@ -1104,7 +1089,6 @@ span a {
     border-radius: 20px;
 }
 
-
 .buttonmoreotzyvy {
     width: 200px;
     height: 50px;
@@ -1190,7 +1174,6 @@ span a {
     background: -webkit-linear-gradient(right, rgb(255, 110, 127) 0%, rgb(191, 233, 255) 100%);
 }
 
-
 .newspringoffer {
     text-align: center;
 }
@@ -1219,6 +1202,10 @@ span a {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     text-transform: uppercase;
+}
+
+.otzyvyshadow {
+    box-shadow: 4px 4px 20px 2px;
 }
 
 
