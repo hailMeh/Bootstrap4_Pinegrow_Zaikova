@@ -22,13 +22,13 @@ body {
 }
 
 ::-webkit-scrollbar {
-    width: 8px;
+    width: 10px;
     height: 8px;
 }
 
 ::-webkit-scrollbar-thumb {
     cursor: pointer;
-    background: #67d5b5;
+    background: linear-gradient(90deg, #7F7FD5, #86A8E7, #91EAE4);
 }
 
 .loader {
@@ -89,111 +89,6 @@ body {
 
 .navi__burger {
     background-color: #ff0000;
-}
-
-.footer_svg {
-    width: 150%;
-    height: 150%;
-    transform: translate3d(0px, 0px, 0px);
-    left: 1px;
-    padding-left: 0px;
-    padding-right: 295px;
-}
-
-.footer__grid {
-}
-
-.footer__grid {
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
-    grid-template-rows: minmax(100px, auto) minmax(100px, auto);
-    grid-template-areas: 'SVG social social' 'SVG copyright copyright';
-}
-
-.footer__grid_svg {
-    grid-area: 1 / 1 / 3 / 2;
-}
-
-.footer__grid_copyrightText {
-    grid-area: 2 / 2 / 3 / 4;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
-    color: #ff0000;
-    letter-spacing: 1px;
-    font-weight: 700;
-}
-
-.footer__copyright_svg {
-}
-
-@media (min-width:576px) {
-    .footer__grid_social {
-        grid-area: 1 / 2 / 2 / 4;
-        align-items: center;
-        justify-content: center;
-        text-indent: 10px;
-    }
-}
-
-.footer__grid_p {
-    color: #ff0000;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    letter-spacing: 1px;
-    font-size: 24px;
-}
-
-.footer__grid_p {
-    color: #ff0000;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    letter-spacing: 1px;
-    font-size: 24px;
-}
-
-.footer__grid_svgPic {
-    width: 100%;
-    height: 100%;
-    transform: translate3d(0px, 0px, 0px);
-}
-
-@media (max-width:575px) {
-    .footer__grid_social {
-        position: absolute;
-        left: 109px;
-    }
-
-    .footer__grid_svg {
-        width: 156%;
-        height: 100%;
-        transform: translate3d(0px, 0px, 0px);
-    }
-
-    .footer__grid_copyrightText {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 23px;
-        grid-column: 1;
-        padding-top: 92px;
-        grid-area: text;
-    }
-
-    .footer__grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: minmax(100px, auto) [content-end] minmax(300px, 1fr);
-        grid-template-areas: 'svg social' 'text text';
-    }
-}
-
-.footer__svg_icon:hover {
-    width: 30px;
-    height: 30px;
-    color: #000cff;
-}
-
-.footer__svg_icon {
-    width: 30px;
-    height: 30px;
 }
 
 .sectionAbout__grid {
@@ -297,6 +192,7 @@ body {
 
 .secondpartforthirdsectionaboutme {
     grid-area: 9 / 3 / 14 / backgroundFirst;
+    background: #beb4ea;
 }
 
 .aboutmelastpartsection {
@@ -316,9 +212,6 @@ body {
     width: 100%;
     height: 100%;
     grid-area: shoesImg;
-}
-
-.aboutmerazerimg {
 }
 
 .aboutmefirstsectiontext {
@@ -361,30 +254,33 @@ body {
     grid-area: oneMoreBigEllipse;
 }
 
-.buttononpdoructpagefirstsection:hover {
-    width: 200px;
-    height: 50px;
-    box-shadow: 0 10px 30px rgba(20, 108, 113, 0.15), inset 0 0 2px rgba(255, 255, 255, 0.3);
-    border-radius: 25px;
-    background-color: #4cf9ff;
-    font-family: 'Roboto', sans-serif;
-    color: #ffffff;
-    font-weight: 700;
-    font-size: 14px;
-    text-transform: uppercase;
-    text-align: center;
-    letter-spacing: 1px;
-}
-
 .buttononpdoructpagefirstsection {
     width: 200px;
     height: 50px;
     box-shadow: 0 10px 30px rgba(20, 108, 113, 0.15), inset 0 0 2px rgba(255, 255, 255, 0.3);
     border-radius: 25px;
     background-color: #00ecf4;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #ffffff;
-    font-weight: 700;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+    cursor: default;
+    position: relative;
+    z-index: 5;
+}
+
+.buttononpdoructpagefirstsection:hover {
+    width: 200px;
+    height: 50px;
+    box-shadow: 0 10px 30px rgba(20, 108, 113, 0.15), inset 0 0 2px rgba(255, 255, 255, 0.3);
+    border-radius: 25px;
+    background-color: #00ecf4;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-weight: 600;
     font-size: 14px;
     text-transform: uppercase;
     text-align: center;
@@ -395,7 +291,7 @@ body {
 }
 
 .divbuttononaboutproductbuy {
-    grid-area: 4 / 3 / 5 / 6;
+    grid-area: 4 / 3 / 5 / 5;
     text-align: center;
 }
 
@@ -529,9 +425,6 @@ body {
 
 .bubblesimgcontainerfive {
     grid-area: 6 / 2 / 7 / 3;
-}
-
-.titileaboutproductfirstsectionzaikova {
 }
 
 .aboutproductthirdse {
@@ -811,9 +704,6 @@ body {
     background-color: #ffe400;
 }
 
-.buttonsmodalcolorpickermainclass_yellow {
-}
-
 .containerArrowDirtyBoots {
     width: 100%;
     height: 100%;
@@ -929,12 +819,6 @@ body {
     grid-template-rows: 100px 100px 52px 100px 100px 100px 100px 100px;
 }
 
-.FLEXcontainerforSizeAdvice {
-}
-
-.RowForTitleInSizeAdvise {
-}
-
 .ContainerWavesImg {
     grid-area: 5 / 2 / 6 / 5;
 }
@@ -945,9 +829,6 @@ body {
     z-index: -1;
     margin-bottom: 66px;
     margin-top: 51px;
-}
-
-.aboutme {
 }
 
 .divaboutme {
@@ -972,10 +853,7 @@ body {
 .myphoto {
     height: 100%;
     margin-left: auto;
-    border: 2px solid #0dcaf0 !important;
-}
-
-.icons {
+    border: 2px solid #a296a2 !important;
 }
 
 .threeicons {
@@ -1021,9 +899,6 @@ body {
     padding-top: 10px;
 }
 
-.texthandmade {
-}
-
 .textinst {
     position: relative;
     font-family: 'Montserrat Alternates', sans-serif;
@@ -1056,22 +931,12 @@ body {
     text-indent: 25px;
 }
 
-.INdotsintitlledelivery {
-}
-
-.star {
-}
-
 span a {
     font-size: 42px;
     color: pink;
     text-decoration: none;
     margin: 0 10px;
     transition: all 0.4s ease-in-out;
-
-    &:hover {
-        color: #ffffff;
-    }
 }
 
 @keyframes float {
@@ -1094,6 +959,7 @@ span a {
 .avatar {
     width: 120px;
     height: 120px;
+    margin-bottom: 20px;
     box-sizing: border-box;
     border: 3px white solid;
     border-radius: 50%;
@@ -1101,6 +967,25 @@ span a {
     box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
     transform: translatey(0px);
     animation: float 6s ease-in-out infinite;
+}
+
+@media (max-width:575px) {
+    .avatar {
+        margin-bottom: 10px;
+        box-sizing: border-box;
+        border: 3px white solid;
+        border-radius: 50%;
+        box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+        transform: translatey(0px);
+        animation: float 6s ease-in-out infinite;
+        overflow: hidden;
+        min-width: 20%;
+        max-width: 25%;
+        min-height: 20%;
+        max-height: 25%;
+        width: 30%;
+        height: 30%;
+    }
 }
 
 .lines {
@@ -1133,23 +1018,24 @@ span a {
 .textinsellpagegrey {
     opacity: 0.7;
     font-family: 'Montserrat Alternates', sans-serif;
-    color: #00000;
+    color: black;
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 1.4px;
 }
 
 .selltextonsellpage {
-    font-size: 32px;
+    font-size: 24px;
     font-weight: 400;
     letter-spacing: 2.8px;
-    color: #0101ee;
+    color: #cd63ed;
     font-family: 'Montserrat Alternates', sans-serif;
+    text-align: left;
 }
 
 .textsellonsellsectiontitle {
     font-family: 'Montserrat', sans-serif;
-    color: #00000;
+    color: black;
     font-size: 28px;
     letter-spacing: 2.24px;
     font-weight: 400;
@@ -1207,8 +1093,8 @@ span a {
 }
 
 .dividersvgorange {
-    background-color: #dce35b;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='0' x2='0' y1='0' y2='100%25' gradientTransform='rotate(0,720,378)'%3E%3Cstop offset='0' stop-color='%23dce35b'/%3E%3Cstop offset='1' stop-color='%231be35f'/%3E%3C/linearGradient%3E%3Cpattern patternUnits='userSpaceOnUse' id='b' width='300' height='250' x='0' y='0' viewBox='0 0 1080 900'%3E%3Cg fill-opacity='0.1'%3E%3Cpolygon fill='%23444' points='90 150 0 300 180 300'/%3E%3Cpolygon points='90 150 180 0 0 0'/%3E%3Cpolygon fill='%23AAA' points='270 150 360 0 180 0'/%3E%3Cpolygon fill='%23DDD' points='450 150 360 300 540 300'/%3E%3Cpolygon fill='%23999' points='450 150 540 0 360 0'/%3E%3Cpolygon points='630 150 540 300 720 300'/%3E%3Cpolygon fill='%23DDD' points='630 150 720 0 540 0'/%3E%3Cpolygon fill='%23444' points='810 150 720 300 900 300'/%3E%3Cpolygon fill='%23FFF' points='810 150 900 0 720 0'/%3E%3Cpolygon fill='%23DDD' points='990 150 900 300 1080 300'/%3E%3Cpolygon fill='%23444' points='990 150 1080 0 900 0'/%3E%3Cpolygon fill='%23DDD' points='90 450 0 600 180 600'/%3E%3Cpolygon points='90 450 180 300 0 300'/%3E%3Cpolygon fill='%23666' points='270 450 180 600 360 600'/%3E%3Cpolygon fill='%23AAA' points='270 450 360 300 180 300'/%3E%3Cpolygon fill='%23DDD' points='450 450 360 600 540 600'/%3E%3Cpolygon fill='%23999' points='450 450 540 300 360 300'/%3E%3Cpolygon fill='%23999' points='630 450 540 600 720 600'/%3E%3Cpolygon fill='%23FFF' points='630 450 720 300 540 300'/%3E%3Cpolygon points='810 450 720 600 900 600'/%3E%3Cpolygon fill='%23DDD' points='810 450 900 300 720 300'/%3E%3Cpolygon fill='%23AAA' points='990 450 900 600 1080 600'/%3E%3Cpolygon fill='%23444' points='990 450 1080 300 900 300'/%3E%3Cpolygon fill='%23222' points='90 750 0 900 180 900'/%3E%3Cpolygon points='270 750 180 900 360 900'/%3E%3Cpolygon fill='%23DDD' points='270 750 360 600 180 600'/%3E%3Cpolygon points='450 750 540 600 360 600'/%3E%3Cpolygon points='630 750 540 900 720 900'/%3E%3Cpolygon fill='%23444' points='630 750 720 600 540 600'/%3E%3Cpolygon fill='%23AAA' points='810 750 720 900 900 900'/%3E%3Cpolygon fill='%23666' points='810 750 900 600 720 600'/%3E%3Cpolygon fill='%23999' points='990 750 900 900 1080 900'/%3E%3Cpolygon fill='%23999' points='180 0 90 150 270 150'/%3E%3Cpolygon fill='%23444' points='360 0 270 150 450 150'/%3E%3Cpolygon fill='%23FFF' points='540 0 450 150 630 150'/%3E%3Cpolygon points='900 0 810 150 990 150'/%3E%3Cpolygon fill='%23222' points='0 300 -90 450 90 450'/%3E%3Cpolygon fill='%23FFF' points='0 300 90 150 -90 150'/%3E%3Cpolygon fill='%23FFF' points='180 300 90 450 270 450'/%3E%3Cpolygon fill='%23666' points='180 300 270 150 90 150'/%3E%3Cpolygon fill='%23222' points='360 300 270 450 450 450'/%3E%3Cpolygon fill='%23FFF' points='360 300 450 150 270 150'/%3E%3Cpolygon fill='%23444' points='540 300 450 450 630 450'/%3E%3Cpolygon fill='%23222' points='540 300 630 150 450 150'/%3E%3Cpolygon fill='%23AAA' points='720 300 630 450 810 450'/%3E%3Cpolygon fill='%23666' points='720 300 810 150 630 150'/%3E%3Cpolygon fill='%23FFF' points='900 300 810 450 990 450'/%3E%3Cpolygon fill='%23999' points='900 300 990 150 810 150'/%3E%3Cpolygon points='0 600 -90 750 90 750'/%3E%3Cpolygon fill='%23666' points='0 600 90 450 -90 450'/%3E%3Cpolygon fill='%23AAA' points='180 600 90 750 270 750'/%3E%3Cpolygon fill='%23444' points='180 600 270 450 90 450'/%3E%3Cpolygon fill='%23444' points='360 600 270 750 450 750'/%3E%3Cpolygon fill='%23999' points='360 600 450 450 270 450'/%3E%3Cpolygon fill='%23666' points='540 600 630 450 450 450'/%3E%3Cpolygon fill='%23222' points='720 600 630 750 810 750'/%3E%3Cpolygon fill='%23FFF' points='900 600 810 750 990 750'/%3E%3Cpolygon fill='%23222' points='900 600 990 450 810 450'/%3E%3Cpolygon fill='%23DDD' points='0 900 90 750 -90 750'/%3E%3Cpolygon fill='%23444' points='180 900 270 750 90 750'/%3E%3Cpolygon fill='%23FFF' points='360 900 450 750 270 750'/%3E%3Cpolygon fill='%23AAA' points='540 900 630 750 450 750'/%3E%3Cpolygon fill='%23FFF' points='720 900 810 750 630 750'/%3E%3Cpolygon fill='%23222' points='900 900 990 750 810 750'/%3E%3Cpolygon fill='%23222' points='1080 300 990 450 1170 450'/%3E%3Cpolygon fill='%23FFF' points='1080 300 1170 150 990 150'/%3E%3Cpolygon points='1080 600 990 750 1170 750'/%3E%3Cpolygon fill='%23666' points='1080 600 1170 450 990 450'/%3E%3Cpolygon fill='%23DDD' points='1080 900 1170 750 990 750'/%3E%3C/g%3E%3C/pattern%3E%3C/defs%3E%3Crect x='0' y='0' fill='url(%23a)' width='100%25' height='100%25'/%3E%3Crect x='0' y='0' fill='url(%23b)' width='100%25' height='100%25'/%3E%3C/svg%3E");
+    background-color: #ff9c7a;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 800'%3E%3Cg %3E%3Ccircle fill='%23ff9c7a' cx='400' cy='400' r='600'/%3E%3Ccircle fill='%23ffac80' cx='400' cy='400' r='500'/%3E%3Ccircle fill='%23ffbb8a' cx='400' cy='400' r='400'/%3E%3Ccircle fill='%23ffca96' cx='400' cy='400' r='300'/%3E%3Ccircle fill='%23ffd8a4' cx='400' cy='400' r='200'/%3E%3Ccircle fill='%23ffe5b4' cx='400' cy='400' r='100'/%3E%3C/g%3E%3C/svg%3E");
     background-attachment: fixed;
     background-size: cover;
 }
@@ -1223,9 +1109,6 @@ span a {
     border-radius: 20px;
 }
 
-.imgforotzyvymain {
-}
-
 .buttonmoreotzyvy {
     width: 200px;
     height: 50px;
@@ -1236,21 +1119,29 @@ span a {
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    cursor: default;
     z-index: 5;
     font-family: 'Montserrat Alternates', sans-serif;
     background: linear-gradient(90deg, #E8CBC0, #636FA4);
 }
 
-.classforpersik {
-}
-
-.classforpersik {
+.buttonmoreotzyvy:hover {
+    width: 200px;
+    height: 50px;
+    box-shadow: 0 10px 30px rgba(20, 108, 113, 0.15), inset 0 0 2px rgba(255, 255, 255, 0.3);
+    border-radius: 25px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    z-index: 5;
+    font-family: 'Montserrat Alternates', sans-serif;
+    background: linear-gradient(90deg, #E8CBC0, #636FA4);
 }
 
 .dividerpersik {
     background-color: #ffe5b4;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%23fdd8a1' points='800 100 0 200 0 800 1600 800 1600 200'/%3E%3Cpolygon fill='%23fbca90' points='800 200 0 400 0 800 1600 800 1600 400'/%3E%3Cpolygon fill='%23fabc80' points='800 300 0 600 0 800 1600 800 1600 600'/%3E%3Cpolygon fill='%23faad72' points='1600 800 800 400 0 800'/%3E%3Cpolygon fill='%23f99e66' points='1280 800 800 500 320 800'/%3E%3Cpolygon fill='%23f88d5c' points='533.3 800 1066.7 800 800 600'/%3E%3Cpolygon fill='%23f77c55' points='684.1 800 914.3 800 800 700'/%3E%3C/g%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 1500'%3E%3Cdefs%3E%3CradialGradient id='a' gradientUnits='objectBoundingBox'%3E%3Cstop offset='0' stop-color='%23FB3'/%3E%3Cstop offset='1' stop-color='%23ffe5b4'/%3E%3C/radialGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='0' y1='750' x2='1550' y2='750'%3E%3Cstop offset='0' stop-color='%23ffd074'/%3E%3Cstop offset='1' stop-color='%23ffe5b4'/%3E%3C/linearGradient%3E%3Cpath id='s' fill='url(%23b)' d='M1549.2 51.6c-5.4 99.1-20.2 197.6-44.2 293.6c-24.1 96-57.4 189.4-99.3 278.6c-41.9 89.2-92.4 174.1-150.3 253.3c-58 79.2-123.4 152.6-195.1 219c-71.7 66.4-149.6 125.8-232.2 177.2c-82.7 51.4-170.1 94.7-260.7 129.1c-90.6 34.4-184.4 60-279.5 76.3C192.6 1495 96.1 1502 0 1500c96.1-2.1 191.8-13.3 285.4-33.6c93.6-20.2 185-49.5 272.5-87.2c87.6-37.7 171.3-83.8 249.6-137.3c78.4-53.5 151.5-114.5 217.9-181.7c66.5-67.2 126.4-140.7 178.6-218.9c52.3-78.3 96.9-161.4 133-247.9c36.1-86.5 63.8-176.2 82.6-267.6c18.8-91.4 28.6-184.4 29.6-277.4c0.3-27.6 23.2-48.7 50.8-48.4s49.5 21.8 49.2 49.5c0 0.7 0 1.3-0.1 2L1549.2 51.6z'/%3E%3Cg id='g'%3E%3Cuse href='%23s' transform='scale(0.12) rotate(60)'/%3E%3Cuse href='%23s' transform='scale(0.2) rotate(10)'/%3E%3Cuse href='%23s' transform='scale(0.25) rotate(40)'/%3E%3Cuse href='%23s' transform='scale(0.3) rotate(-20)'/%3E%3Cuse href='%23s' transform='scale(0.4) rotate(-30)'/%3E%3Cuse href='%23s' transform='scale(0.5) rotate(20)'/%3E%3Cuse href='%23s' transform='scale(0.6) rotate(60)'/%3E%3Cuse href='%23s' transform='scale(0.7) rotate(10)'/%3E%3Cuse href='%23s' transform='scale(0.835) rotate(-40)'/%3E%3Cuse href='%23s' transform='scale(0.9) rotate(40)'/%3E%3Cuse href='%23s' transform='scale(1.05) rotate(25)'/%3E%3Cuse href='%23s' transform='scale(1.2) rotate(8)'/%3E%3Cuse href='%23s' transform='scale(1.333) rotate(-60)'/%3E%3Cuse href='%23s' transform='scale(1.45) rotate(-30)'/%3E%3Cuse href='%23s' transform='scale(1.6) rotate(10)'/%3E%3C/g%3E%3C/defs%3E%3Cg transform='translate(80 0)'%3E%3Cg %3E%3Ccircle fill='url(%23a)' r='3000'/%3E%3Cg opacity='0.5'%3E%3Ccircle fill='url(%23a)' r='2000'/%3E%3Ccircle fill='url(%23a)' r='1800'/%3E%3Ccircle fill='url(%23a)' r='1700'/%3E%3Ccircle fill='url(%23a)' r='1651'/%3E%3Ccircle fill='url(%23a)' r='1450'/%3E%3Ccircle fill='url(%23a)' r='1250'/%3E%3Ccircle fill='url(%23a)' r='1175'/%3E%3Ccircle fill='url(%23a)' r='900'/%3E%3Ccircle fill='url(%23a)' r='750'/%3E%3Ccircle fill='url(%23a)' r='500'/%3E%3Ccircle fill='url(%23a)' r='380'/%3E%3Ccircle fill='url(%23a)' r='250'/%3E%3C/g%3E%3Cg transform='rotate(-111.6 0 0)'%3E%3Cuse href='%23g' transform='rotate(10)'/%3E%3Cuse href='%23g' transform='rotate(120)'/%3E%3Cuse href='%23g' transform='rotate(240)'/%3E%3C/g%3E%3Ccircle fill-opacity='0.1' fill='url(%23a)' r='3000'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
     background-attachment: fixed;
     background-size: cover;
 }
@@ -1283,7 +1174,7 @@ span a {
 
 .handmadetext {
     font-family: 'Montserrat', sans-serif;
-    font-size: 80px;
+    font-size: 90px;
     font-weight: 400;
     letter-spacing: -2px;
     text-transform: uppercase;
@@ -1298,7 +1189,71 @@ span a {
     line-height: 95px;
     font-weight: lighter;
 }
+
+.sellbuttonstylekastil {
+    background: -webkit-linear-gradient(right, rgb(255, 110, 127) 0%, rgb(191, 233, 255) 100%);
 }
+
+.newspringoffer {
+    text-align: center;
+}
+
+.slidetest {
+    width: 90%;
+}
+
+.textforslideerzaikova {
+    z-index: 5;
+    font-size: 58px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-weight: 700;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 2px 2px 10px;
+}
+
+.textonslidezaikova {
+    z-index: 5;
+    font-size: 36px;
+    letter-spacing: 0.2em;
+    font-weight: 700;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.otzyvyshadow {
+    box-shadow: 4px 4px 20px 2px;
+}
+
+.site-preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 9999999;
+    opacity: 0;
+    visibility: hidden;
+    background: -webkit-linear-gradient(bottom, rgb(112, 225, 245) 0%, rgb(255, 209, 148) 100%);
+}
+
+.image-preloader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+    .removeotzyvy {
+        display: none;
+    }
+}
+
 
 
 
