@@ -845,9 +845,12 @@ body {
 }
 
 .titleaboutme {
-    grid-area: 1 / 2 / 2 / 3;
-    width: 100%;
+}
+
+.myphoto {
     height: 100%;
+    margin-left: auto;
+    border: 2px solid #a296a2 !important;
 }
 
 .myphoto {
@@ -894,15 +897,26 @@ body {
     position: relative;
     text-align: center;
     line-height: 23px;
-    font-size: 26px;
+    font-size: 24px;
     font-family: 'Montserrat Alternates', sans-serif;
     padding-top: 10px;
+    font-weight: 700;
 }
 
 .textinst {
     position: relative;
     font-family: 'Montserrat Alternates', sans-serif;
-    font-size: 26px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+@media (max-width:339px) {
+    .textinst {
+        position: relative;
+        font-family: 'Montserrat Alternates', sans-serif;
+        font-size: 22px;
+        font-weight: 700;
+    }
 }
 
 .INtitletextsizing {
@@ -989,8 +1003,6 @@ span a {
 }
 
 .lines {
-    margin-top: 35px;
-    margin-left: -5px;
 }
 
 .imgLogo {
