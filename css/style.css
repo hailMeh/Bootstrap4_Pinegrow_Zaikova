@@ -1,7 +1,5 @@
 html {
     -webkit-font-smoothing: antialiased;
-    width: 100vw;
-    overflow-x: hidden;
 }
 
 body {
@@ -462,8 +460,34 @@ body {
     grid-area: 11 / 9 / 12 / 12;
 }
 
-.containerforimgaboutproductlastsection {
-    grid-area: 14 / 4 / 17 / 10;
+@media (min-width:576px) and (max-width:767px) {
+    .containerforimgaboutproductlastsection {
+        grid-area: 14 / 2 / 17 / 12;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .containerforimgaboutproductlastsection {
+        grid-area: 14 / 2 / 17 / 12;
+    }
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+    .containerforimgaboutproductlastsection {
+        grid-area: 14 / 3 / 16 / 11;
+    }
+}
+
+@media (min-width:1200px) {
+    .containerforimgaboutproductlastsection {
+        grid-area: 14 / 4 / 17 / 10;
+    }
+}
+
+@media (max-width:575px) {
+    .containerforimgaboutproductlastsection {
+        grid-area: 14 / backgroundFirst / 16 / backgroundFirst;
+    }
 }
 
 .containerforimagelinesovershoes {
