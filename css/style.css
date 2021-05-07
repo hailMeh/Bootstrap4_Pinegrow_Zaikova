@@ -1375,6 +1375,46 @@ span a {
 
 .columnforbackgroundfirst {
     background-image: url('/img/SectionThree_backg2.png');
+    background-size: cover;
+}
+
+.aboutproducttextonadapt {
+    width: 0;
+    height: 0;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 32px;
+}
+
+.buttonforadaptivesell {
+    width: 160px;
+    height: 35px;
+    box-shadow: 0 10px 30px rgba(20, 108, 113, 0.15), inset 0 0 2px rgba(255, 255, 255, 0.3);
+    border-radius: 25px;
+    background-color: #00ecf4;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+    cursor: default;
+    position: relative;
+    z-index: 6;
+    bottom: 9px;
+}
+
+.textforadaptiveproff {
+    color: #00fffc;
+}
+
+.rowforsecondback {
+    background-image: url('../img/Shape.png');
+    background-position: center top;
+    background-size: cover;
+    position: relative;
+    z-index: 5;
+    bottom: 114px;
 }
 
 
