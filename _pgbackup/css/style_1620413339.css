@@ -1,7 +1,5 @@
 html {
     -webkit-font-smoothing: antialiased;
-    width: 100vw;
-    overflow-x: hidden;
 }
 
 body {
@@ -160,7 +158,7 @@ body {
 
 .sectionTwo__backgroundContainer {
     width: 100%;
-    height: 100%;
+    height: auto;
     grid-area: backgroundFirst;
 }
 
@@ -202,40 +200,63 @@ body {
 }
 
 .aboutmeimgshoes {
-    height: 100%;
+    height: auto;
     z-index: 1;
     position: relative;
     width: 100%;
 }
 
 .aboutmecontainerforshoesimg {
-    width: 100%;
-    height: 100%;
-    grid-area: shoesImg;
+    grid-area: 2 / 7 / 5 / 12;
+}
+
+@media (max-width:575px) {
+    .aboutmecontainerforshoesimg {
+        grid-area: 2 / backgroundFirst / 5 / backgroundFirst;
+    }
 }
 
 .aboutmefirstsectiontext {
     width: 400px;
     height: 131px;
     color: #00fffc;
-    font-family: Roboto;
     font-size: 40px;
     font-weight: 700;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: 50px;
     text-align: left;
     font-style: normal;
     letter-spacing: normal;
     line-height: normal;
 }
 
+@media (max-width:575px) {
+    .aboutmefirstsectiontext {
+        color: #00fffc;
+        font-size: 16px;
+        font-weight: 700;
+        align-self: center;
+        font-family: 'Montserrat Alternates', sans-serif;
+        line-height: 86px;
+        text-align: center;
+    }
+}
+
 .firstsectionbigellipse {
-    width: 110px;
+    width: 100%;
     height: 110px;
     opacity: 0.4;
     object-position: -28px;
     grid-area: oneMoreBigEllipse;
+}
+
+@media (max-width:991px) {
+    .firstsectionbigellipse {
+        width: 100%;
+        height: 110px;
+        opacity: 0.4;
+        object-position: -28px;
+        grid-area: oneMoreBigEllipse;
+        display: none;
+    }
 }
 
 .bigellipseinaboutproduct {
@@ -254,6 +275,13 @@ body {
     grid-area: oneMoreBigEllipse;
 }
 
+@media (max-width:991px) {
+    .onemoreellipse {
+        grid-area: oneMoreBigEllipse;
+        display: none;
+    }
+}
+
 .buttononpdoructpagefirstsection {
     width: 200px;
     height: 50px;
@@ -270,6 +298,24 @@ body {
     cursor: default;
     position: relative;
     z-index: 5;
+}
+
+@media (max-width:575px) {
+    .buttononpdoructpagefirstsection {
+        box-shadow: 0 10px 30px rgba(20, 108, 113, 0.15), inset 0 0 2px rgba(255, 255, 255, 0.3);
+        border-radius: 25px;
+        background-color: #00ecf4;
+        font-family: 'Montserrat', sans-serif;
+        color: #ffffff;
+        font-weight: 500;
+        font-size: 14px;
+        letter-spacing: 1px;
+        cursor: default;
+        z-index: 5;
+        position: relative;
+        text-align: center;
+        text-transform: uppercase;
+    }
 }
 
 .buttononpdoructpagefirstsection:hover {
@@ -291,14 +337,30 @@ body {
 }
 
 .divbuttononaboutproductbuy {
-    grid-area: 4 / 3 / 5 / 5;
+    grid-area: 4 / 3 / 5 / 6;
     text-align: center;
+}
+
+@media (max-width:575px) {
+    .divbuttononaboutproductbuy {
+        grid-area: 4 / 3 / 5 / 11;
+        text-align: center;
+    }
 }
 
 .littleellipseonproduct {
     width: 100%;
-    height: 100%;
+    height: auto;
     opacity: 0.5;
+}
+
+@media (max-width:991px) {
+    .littleellipseonproduct {
+        width: 100%;
+        height: auto;
+        opacity: 0.5;
+        display: none;
+    }
 }
 
 .firstellipsecontainer {
@@ -320,7 +382,7 @@ body {
 }
 
 .aboutproductsecondshoesimg {
-    height: 100%;
+    height: auto;
     position: relative;
     z-index: 1;
     width: 100%;
@@ -462,8 +524,34 @@ body {
     grid-area: 11 / 9 / 12 / 12;
 }
 
-.containerforimgaboutproductlastsection {
-    grid-area: 14 / 4 / 17 / 10;
+@media (min-width:576px) and (max-width:767px) {
+    .containerforimgaboutproductlastsection {
+        grid-area: 14 / 2 / 17 / 12;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .containerforimgaboutproductlastsection {
+        grid-area: 14 / 2 / 17 / 12;
+    }
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+    .containerforimgaboutproductlastsection {
+        grid-area: 14 / 3 / 16 / 11;
+    }
+}
+
+@media (min-width:1200px) {
+    .containerforimgaboutproductlastsection {
+        grid-area: 14 / 4 / 16 / 10;
+    }
+}
+
+@media (max-width:575px) {
+    .containerforimgaboutproductlastsection {
+        grid-area: 14 / backgroundFirst / 16 / backgroundFirst;
+    }
 }
 
 .containerforimagelinesovershoes {
@@ -845,9 +933,12 @@ body {
 }
 
 .titleaboutme {
-    grid-area: 1 / 2 / 2 / 3;
-    width: 100%;
+}
+
+.myphoto {
     height: 100%;
+    margin-left: auto;
+    border: 2px solid #a296a2 !important;
 }
 
 .myphoto {
@@ -894,15 +985,26 @@ body {
     position: relative;
     text-align: center;
     line-height: 23px;
-    font-size: 26px;
+    font-size: 24px;
     font-family: 'Montserrat Alternates', sans-serif;
     padding-top: 10px;
+    font-weight: 700;
 }
 
 .textinst {
     position: relative;
     font-family: 'Montserrat Alternates', sans-serif;
-    font-size: 26px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+@media (max-width:339px) {
+    .textinst {
+        position: relative;
+        font-family: 'Montserrat Alternates', sans-serif;
+        font-size: 22px;
+        font-weight: 700;
+    }
 }
 
 .INtitletextsizing {
@@ -989,8 +1091,6 @@ span a {
 }
 
 .lines {
-    margin-top: 35px;
-    margin-left: -5px;
 }
 
 .imgLogo {
@@ -1181,7 +1281,7 @@ span a {
     text-align: center;
     word-break: break-word;
     line-height: 72px;
-    opacity: 0.3;
+    opacity: 0.5;
 }
 
 .onlytext {
@@ -1251,6 +1351,16 @@ span a {
 @media (min-width:992px) and (max-width:1199px) {
     .removeotzyvy {
         display: none;
+    }
+}
+
+.containerfortextproffesionale {
+    grid-area: firstSectionText;
+}
+
+@media (max-width:575px) {
+    .containerfortextproffesionale {
+        grid-area: 2 / backgroundFirst / 1 / backgroundFirst;
     }
 }
 
