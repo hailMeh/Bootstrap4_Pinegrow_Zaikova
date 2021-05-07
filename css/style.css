@@ -210,7 +210,7 @@ body {
 
 .aboutmeimgshoes {
     height: auto;
-    z-index: 1;
+    z-index: 122;
     position: relative;
     width: 100%;
 }
@@ -1409,12 +1409,32 @@ span a {
 }
 
 .rowforsecondback {
-    background-image: url('../img/Shape.png');
-    background-position: center top;
-    background-size: cover;
     position: relative;
-    z-index: 5;
+    z-index: 15;
     bottom: 114px;
+    background-position: left top;
+    background-size: cover;
+    background: -webkit-linear-gradient(283deg, rgb(190, 147, 197) 0%, rgb(123, 198, 204) 100%);
+}
+
+.thirdblad {
+}
+
+.thirdbladdimgblac {
+    bottom: 116px;
+}
+
+.asdasdasdasdas {
+    background-image: url('../img/Shape.png');
+    background-position: center bottom;
+}
+
+.dfdfgdfgdfg {
+}
+
+.fdgfhfghgfhfffff {
+    height: auto;
+    width: 100%;
 }
 
 
