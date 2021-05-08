@@ -1293,6 +1293,19 @@ span a {
     opacity: 0.5;
 }
 
+@media (min-width:1800px) {
+    .handmadetext {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 110px;
+        font-weight: 400;
+        text-transform: uppercase;
+        text-align: center;
+        word-break: break-word;
+        line-height: 83px;
+        opacity: 0.5;
+    }
+}
+
 .onlytext {
     font-size: 110px;
     line-height: 95px;
