@@ -1308,7 +1308,17 @@ span a {
 }
 
 .slidetest {
-    width: 90%;
+}
+
+.textforslideerzaikova {
+    z-index: 5;
+    font-size: 58px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-weight: 700;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 2px 2px 10px;
 }
 
 .textforslideerzaikova {
@@ -1374,8 +1384,6 @@ span a {
 }
 
 .columnforbackgroundfirst {
-    background-image: url('/img/SectionThree_backg2.png');
-    background-size: cover;
 }
 
 .aboutproducttextonadapt {
@@ -1411,17 +1419,12 @@ span a {
 .rowforsecondback {
     position: relative;
     z-index: 15;
-    bottom: 114px;
-    background-position: left top;
-    background-size: cover;
-    background: -webkit-linear-gradient(283deg, rgb(190, 147, 197) 0%, rgb(123, 198, 204) 100%);
 }
 
 .thirdblad {
 }
 
 .thirdbladdimgblac {
-    bottom: 116px;
 }
 
 .asdasdasdasdas {
@@ -1435,6 +1438,71 @@ span a {
 .fdgfhfghgfhfffff {
     height: auto;
     width: 100%;
+}
+
+@media (min-width:1200px) {
+    .divforadaptive {
+        display: none;
+    }
+
+    .containerforwildmusicup {
+    }
+}
+
+@media (max-width:1199px) {
+    .wildmusicblad {
+        background: -webkit-linear-gradient(90deg, rgb(151, 150, 240) 0%, rgb(151, 150, 240) 0%);
+        background-image: url('../img/SectionThree_backg2.png');
+        background-size: cover;
+        position: relative;
+        top: 1px;
+        display: none;
+    }
+}
+
+.wildmusicblad {
+    background: -webkit-linear-gradient(90deg, rgb(151, 150, 240) 0%, rgb(151, 150, 240) 0%);
+    background-image: url('../img/SectionThree_backg2.png');
+    background-size: cover;
+    position: relative;
+    top: 1px;
+}
+
+.firstimageinslider {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.secondimageinslider {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.thirdimageinslider {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width:991px) {
+    .classforslidertext {
+    }
+}
+
+@media (max-width:767px) {
+    .adaptiveforzaikovatext {
+        font-size: 32px;
+    }
+
+    .textforslideinzaikovapre {
+        font-size: 20px;
+        letter-spacing: 0.1em;
+    }
+
+    .adapaaaaaaaaaaaa {
+    }
 }
 
 
