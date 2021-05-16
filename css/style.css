@@ -1493,9 +1493,9 @@ span a {
 }
 
 .thirdimageinslider {
-    object-fit: cover;
     width: 100%;
     height: auto;
+    object-fit: cover;
 }
 
 @media (max-width:991px) {
